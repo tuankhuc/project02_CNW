@@ -1,0 +1,36 @@
+@media (min-width: 768px) {
+    .explore {
+
+    }
+}
+
+@media (max-width: 767px) {
+    .c-12 {
+        width: 100%;
+        margin: 8px 0;
+    }
+
+    .container {
+        justify-content: flex-end !important;
+    }
+
+    .explore__order {
+        margin: 0;
+    }
+
+    .menu__item {
+        margin-bottom: 0;
+    }
+
+    .menu__item-decs {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .pagigation {
+        margin-top: 12px;
+    }
+}
